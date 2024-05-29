@@ -1,0 +1,156 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 1000px;
+    width: 900px;
+    margin-left: 120px;
+    box-shadow: 2px 2px 4px 4px rgba(128, 128, 128, 0.584);
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+}
+
+.part1 {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.part2 {
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec1 {
+    flex-basis: 50%;
+    background-color: black;
+}
+
+.sec2 {
+    flex-basis: 50%;
+    background-color: rgb(235, 235, 235);
+}
+
+.sec3 {
+    flex-basis: 30%;
+    background-color: rgb(235, 235, 235);
+    margin-right: 10px;
+}
+
+.sec4, .sec5, .sec6 {
+    flex-basis: 30%;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.name {
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-stretch: ultra-expanded;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.banner1 {
+    background-color: rgba(248, 192, 61, 0.986);
+    display: inline-flex;
+    display: block;
+}
+
+.education {
+    color: white;
+    align-items: start;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.expertise {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.course {
+    color: white;
+    align-items: start;
+    margin-left: 20px;
+    margin-top: -15px;
+}
+
+.exp {
+    margin-left: 20px; 
+    position: relative; 
+    display: inline-block; 
+    place-items: left;
+}
+
+.progress {
+    display: inline-block;
+    display: block;
+    border-bottom: 5px solid grey;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100px;
+}
+
+.progressbg {
+    display: inline-block;
+    position: absolute;
+    border-bottom: 5px solid rgba(248, 192, 61, 0.986);
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 80px;
+}
+
+.contact {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.contact-card {
+    background-color: rgba(248, 192, 61, 0.986);
+    display: flex;
+    margin: 20px;
+    margin-bottom: -20px;
+    width: 50px;
+    height: 70px;
+}
+
+.contact-detail {
+    margin-left: 15px;
+    margin-top: 5px;
+    width: 500px;
+}
+
+.yellow {
+    background-color: rgba(248, 192, 61, 0.986);
+    display: inline-flex;
+    margin-left: 50px;
+}
+
+.line {
+    border-bottom: 3px solid rgba(248, 192, 61, 0.986);
+    margin-left: 50px;
+    width: 40px;
+}
+
+.line2 {
+    border-bottom: 3px solid rgba(248, 192, 61, 0.986);
+    margin-left: 20px;
+    width: 40px;
+}
+
+.company{
+    display: inline-block;
+}
+
+.img {
+    width: 270px;
+    height: 280px;
+}
+
+h2,h3,h4 {
+    margin-left: 50px;
+}
